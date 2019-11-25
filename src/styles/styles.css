@@ -1,0 +1,54 @@
+.collapse {
+  cursor: pointer;
+}
+ul {
+  border: 1px solid #000;
+  width: 25%;
+  list-style-type: none;
+  padding: 5px;
+}
+tr {
+  padding: 2px;
+}
+
+th {
+  cursor: pointer;
+}
+
+.paddding-right {
+  padding-right: 5px;
+  margin: 0px;
+}
+input,
+select {
+  padding: 1px;
+  width: 15%;
+  height: 25px;
+  margin: 7px;
+}
+
+td {
+  text-align: center;
+}
+
+p {
+  font-weight: 700;
+}
+
+.head {
+  display: flex;
+  align-content: center;
+}
+.desc, .asc {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000;
+  margin: auto;
+}
+
+.reactions-table tr td, .reactions-table tr th, .reactions-table {
+border: 1px solid #333;
+border-collapse: collapse;
+}
